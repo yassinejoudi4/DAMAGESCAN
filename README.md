@@ -38,20 +38,27 @@ Le modèle compte au total 21,1 millions de paramètres, dont 6,4 millions entra
 
 ## 4. Structure du projet
 
+```text
 damage_scan/
-|-- data/                        Dataset d'images (train/valid/test, non inclus)
-|-- src/
-|   |-- explore_data.py          Exploration et visualisation des images
-|   |-- preprocess.py            Chargement et preparation des donnees
-|   |-- model.py                 Architecture VGG16 + couches personnalisees
-|   |-- train.py                 Entrainement et sauvegarde du modele
-|   |-- evaluate.py              Evaluation sur l'ensemble test
-|   `-- visualize_results.py     Generation de la matrice de confusion
-|-- models/                      Modele entraine (.keras) - non inclus dans le repo
-|-- outputs/                     Historique d'entrainement + matrice de confusion
-|-- requirements.txt             Liste des dependances
-`-- README.md
----
+│
+├── data/                        Dataset d'images (train/valid/test, non inclus)
+│
+├── src/
+│   ├── explore_data.py          Exploration et visualisation des images
+│   ├── preprocess.py            Chargement et préparation des données
+│   ├── model.py                 Architecture VGG16 + couches personnalisées
+│   ├── train.py                 Entraînement et sauvegarde du modèle
+│   ├── evaluate.py              Évaluation sur l'ensemble test
+│   └── visualize_results.py     Génération de la matrice de confusion
+│
+├── models/                      Modèle entraîné (.keras) - non inclus dans le repo
+│
+├── outputs/                     Historique d'entraînement + matrice de confusion
+│
+├── requirements.txt             Liste des dépendances
+│
+└── README.md
+```
 
 ## 5. Installation et utilisation
 
