@@ -32,11 +32,10 @@ damage_scan/
 │   ├── model.py                   Architecture VGG16 + couches personnalisées
 │   ├── train.py                   Entraînement et sauvegarde du modèle
 │   ├── evaluate.py                Évaluation sur l'ensemble test
-│   ├── visualize_results.py       Génération de la matrice de confusion
-│   └── caption_generator.py       Génération de légendes via BLIP (en cours)
-├── models/                         Modèle entraîné (.keras) - non inclus dans le repo
+│   └── visualize_results.py       Génération de la matrice de confusion
+├── models/                        Modèle entraîné (.keras) - non inclus dans le repo
 ├── outputs/                       Historique d'entraînement + matrice de confusion
-├── requirements.txt                Liste des dépendances
+├── requirements.txt               Liste des dépendances
 └── README.md
 
 5. INSTALLATION ET UTILISATION
